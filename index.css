@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width:575px;
+    height: 385px;
+}
+
+.column-wrapper{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.column-div {
+  flex: 1; 
+  padding-left: 60px;
+  margin: 0 5px; 
+}
+
+.row-div {
+  padding: 20px;
+  text-align: center;
+}
+
+#scoreboard_h,#scoreboard_g{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    margin-top: 2px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding-top: 13px;
+    padding-right: 10px;
+}
+.heading{
+    color: #EEEEEE;
+    width: 149px;
+    height: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 22px;
+    margin-left: 6px;
+}
+#score1,#score2{
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: "Cursed Timer ULiL",sans-serif;
+    padding-left: 25px;
+    padding-top: 50px;
+    
+}
+.points{
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-family: cursed timer ulil;
+    font-size: 18px;
+}
+#new-game{
+    width: 100px;
+    height: 40px;
+    background-color: #080001;
+    color: #F94F6D;
+}
+.winner{
+    border: 5px solid green;
+}
